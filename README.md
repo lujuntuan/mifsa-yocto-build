@@ -6,13 +6,13 @@ first it downloads the meta-layer for yocto and the mifsa source code,
 
 then it starts docker for yocto compilation.
 
-[poky](https://github.com/yoctoproject/poky/README.md)
+[poky](https://github.com/yoctoproject/poky)
 
-[meta-mifsa](https://github.com/lujuntuan/meta-mifsa/README.md)
+[meta-mifsa](https://github.com/lujuntuan/meta-mifsa)
 
-[meta-openembedded](https://github.com/openembedded/meta-openembedded/README.md)
+[meta-openembedded](https://github.com/openembedded/meta-openembedded)
 
-[src/mifsa](https://github.com/lujuntuan/mifsa/README.md)
+[src/mifsa](https://github.com/lujuntuan/mifsa)
 
 ## How to use
 
