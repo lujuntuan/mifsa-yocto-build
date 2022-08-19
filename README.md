@@ -1,4 +1,4 @@
-# MIFSA-BUILD
+# MIFSA-YOCTO-BUILD
 
 This is a simple project for mifsa compilation, 
 
@@ -40,7 +40,11 @@ Run scripts:
 - docker-build.sh
 - source poky/oe-init-build-env
 - bitbake mifsa-image-qemu
-- runqemu nographic
+- runqemu nographic <!--host password: 123456, qemu login: root , qemu password: fibocom-->
+
+Note: [runqemu nographic] may need to try twice
+
+
 
 ## Copyright:
 
