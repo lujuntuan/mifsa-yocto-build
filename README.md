@@ -29,7 +29,7 @@ Install docker for ubuntu:
 - sudo usermod -aG docker $USER
 - sudo gpasswd -a $USER docker
 - sudo service docker restart
-- 'logout' or 'restart'
+- (you need to reboot or log out)
 
 Set the proxy if you need, for example:
 
@@ -40,11 +40,9 @@ Run scripts:
 - docker-build.sh
 - source poky/oe-init-build-env
 - bitbake mifsa-image-qemu
-- runqemu nographic <!--host password: 123456, qemu login: root , qemu password: fibocom-->
+- runqemu nographic 
 
-Note: [runqemu nographic] may need to try twice
-
-
+Note: [runqemu nographic] host password: 123456 (need to try twice), qemu login: root , qemu password: mifsa
 
 ## Copyright:
 
