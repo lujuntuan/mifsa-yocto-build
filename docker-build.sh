@@ -52,7 +52,7 @@ if [ $? -ne 0  ];then
 fi
 
 echo "*** download repos..."
-vcs import $CURRENT_DIR/work < $CURRENT_DIR/repos/mifsa-build.repo
+vcs import $CURRENT_DIR/work < $CURRENT_DIR/repos/mifsa-yocto-qemu.repo
 [ $? -ne 0 ] && echo "!!! download meta error !!!" && exit 1
 
 echo "*** run docker..."

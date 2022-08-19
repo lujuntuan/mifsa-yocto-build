@@ -2,7 +2,7 @@
 
 This is a simple project for mifsa compilation, 
 
-first it downloads the meta-layer for yocto and the mifsa source code, 
+first it downloads the meta-layer for yocto and the mifsa code, 
 
 then it starts docker for yocto compilation.
 
@@ -12,7 +12,9 @@ then it starts docker for yocto compilation.
 
 [meta-openembedded](https://github.com/openembedded/meta-openembedded)
 
-[src/mifsa](https://github.com/lujuntuan/mifsa)
+[src/mifsa/mifsa-base](https://github.com/lujuntuan/mifsa-base)
+
+[src/mifsa/mifsa-gnss](https://github.com/lujuntuan/mifsa-gnss)
 
 ## How to use
 
@@ -35,7 +37,7 @@ Set the proxy if you need, for example:
 
 Run scripts:
 
-- yocto-run.sh
+- docker-build.sh
 - source poky/oe-init-build-env
 - bitbake mifsa-image-qemu
 - runqemu nographic
