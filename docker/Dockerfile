@@ -64,7 +64,6 @@ RUN apt-get update && \
 RUN /usr/sbin/locale-gen en_US.UTF-8
 RUN touch /etc/sudoers && echo "\n$USERNAME ALL=(ALL) ALL\n" >> /etc/sudoers
 RUN mkdir -p /work && chown $USER_UID:$USER_UID /work
-RUN echo "\n[ -f /dev/net/tun ] && chmod 666 /dev/net/tun\n" >> /etc/init.d/kmod
 
 ENV LANG="en_US.UTF-8"
 ENV GIT_PROXY_COMMAND="oe-git-proxy"
