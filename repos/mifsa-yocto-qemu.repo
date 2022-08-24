@@ -19,3 +19,7 @@ repositories:
     type: git
     url: https://github.com/lujuntuan/mifsa-gnss.git
     version: master
+  src/mifsa/mifsa-ota:
+    type: git
+    url: https://github.com/lujuntuan/mifsa-ota.git
+    version: master
