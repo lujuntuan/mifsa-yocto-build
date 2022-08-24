@@ -53,6 +53,12 @@ fi
 
 echo "*** download repos..."
 vcs import $CURRENT_DIR/work < $CURRENT_DIR/repos/mifsa-yocto-qemu.repo
+for dir in $(ls $CURRENT_DIR/work/)
+do
+    [ ! -d $CURRENT_DIR/work/$dir ] && continue
+    [ "$dir" = "build" ] && continue
+    vcs pull $dir
+done
 [ $? -ne 0 ] && echo "!!! download meta error !!!" && exit 1
 
 echo "*** run docker..."
