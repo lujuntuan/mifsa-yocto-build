@@ -42,7 +42,7 @@ Run scripts:
 - bitbake mifsa-image-qemu
 - runqemu nographic slirp
 
-Note: [runqemu nographic] host password: 123456, qemu login: root , qemu password: mifsa
+Note: qemu login: root , qemu password: mifsa
 
 ## Copyright:
 
