@@ -16,6 +16,8 @@ then it starts docker for yocto compilation.
 
 [src/mifsa/mifsa-gnss](https://github.com/lujuntuan/mifsa-gnss)
 
+[src/mifsa/mifsa-ota](https://github.com/lujuntuan/mifsa-ota)
+
 ## How to use
 
 Install vcstool for ubuntu
