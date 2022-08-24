@@ -40,9 +40,9 @@ Run scripts:
 - docker-build.sh
 - source poky/oe-init-build-env
 - bitbake mifsa-image-qemu
-- runqemu nographic 
+- runqemu nographic slirp
 
-Note: [runqemu nographic] host password: 123456 (need to try twice), qemu login: root , qemu password: mifsa
+Note: [runqemu nographic] host password: 123456, qemu login: root , qemu password: mifsa
 
 ## Copyright:
 
