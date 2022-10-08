@@ -25,7 +25,7 @@ Install vcstool for ubuntu
 - sudo apt-get install python-vcstool
 
 Install docker for ubuntu:
-- sudo apt-get install docker python-vcstool
+- sudo apt-get install docker-ce
 - sudo service docker enable
 - sudo groupadd docker
 - sudo usermod -aG docker $USER
