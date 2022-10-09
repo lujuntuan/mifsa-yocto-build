@@ -26,11 +26,11 @@ Install vcstool for ubuntu
 
 Install docker for ubuntu:
 - sudo apt-get install docker-ce
-- sudo service docker enable
+- sudo systemctl enable docker
 - sudo groupadd docker
 - sudo usermod -aG docker $USER
 - sudo gpasswd -a $USER docker
-- sudo service docker restart
+- sudo systemctl restart docker
 - (you need to reboot or log out)
 
 Set the proxy if you need, for example:
