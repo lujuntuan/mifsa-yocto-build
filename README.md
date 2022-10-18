@@ -22,7 +22,7 @@ then it starts docker for yocto compilation.
 
 Install vcstool for ubuntu
 
-- sudo apt-get install python3-vcstool
+- sudo apt-get install python3-vcstool `or` sudo pip install -U vcstool
 
 Install docker for ubuntu:
 - sudo apt-get install docker-ce
